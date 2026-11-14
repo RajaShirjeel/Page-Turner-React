@@ -1,0 +1,110 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "year": 2019,
+      "copiesLeft": 3,
+      "tags": ["programming", "career"],
+      "blurb": "Practical advice on writing flexible, maintainable code and growing as a developer."
+    },
+    {
+      "id": "2",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "copiesLeft": 0,
+      "tags": ["programming", "best-practices"],
+      "blurb": "Principles and patterns for writing readable code, with refactoring case studies."
+    },
+    {
+      "id": "3",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "year": 2017,
+      "copiesLeft": 2,
+      "tags": ["system-design", "databases"],
+      "blurb": "How storage engines, replication, partitioning and stream processing really work."
+    },
+    {
+      "id": "4",
+      "title": "Introduction to Algorithms",
+      "author": "Cormen, Leiserson, Rivest & Stein",
+      "year": 2022,
+      "copiesLeft": 1,
+      "tags": ["algorithms", "dsa"],
+      "blurb": "The classic reference on algorithm design and analysis."
+    },
+    {
+      "id": "5",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "copiesLeft": 5,
+      "tags": ["sci-fi", "classic"],
+      "blurb": "A desert planet, a priceless spice, and a young heir caught in a galactic power struggle."
+    },
+    {
+      "id": "6",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "year": 2021,
+      "copiesLeft": 4,
+      "tags": ["sci-fi"],
+      "blurb": "A lone astronaut wakes up with no memory and one job: save Earth."
+    },
+    {
+      "id": "7",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "year": 2018,
+      "copiesLeft": 0,
+      "tags": ["self-help", "productivity"],
+      "blurb": "Small changes, compounding results: a practical framework for building habits."
+    },
+    {
+      "id": "8",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "copiesLeft": 2,
+      "tags": ["history", "non-fiction"],
+      "blurb": "A brief history of humankind, from foragers to the present day."
+    },
+    {
+      "id": "9",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": 1937,
+      "copiesLeft": 6,
+      "tags": ["fantasy", "classic"],
+      "blurb": "Bilbo Baggins is swept into a quest to reclaim a dragon-guarded treasure."
+    },
+    {
+      "id": "10",
+      "title": "Grokking Algorithms",
+      "author": "Aditya Bhargava",
+      "year": 2024,
+      "copiesLeft": 3,
+      "tags": ["algorithms", "dsa", "beginner"],
+      "blurb": "An illustrated, friendly guide to the algorithms every programmer should know."
+    }
+  ],
+  "loans": [
+    {
+      "id": "demo1",
+      "customer": "Sarjais",
+      "phone": "9876543210",
+      "address": "Pune, Maharashtra",
+      "pickupDate": "2026-11-20",
+      "dueDate": "2026-12-04",
+      "express": false,
+      "status": "ready",
+      "books": [
+        { "bookId": "3", "title": "Designing Data-Intensive Applications" },
+        { "bookId": "5", "title": "Dune" }
+      ]
+    }
+  ]
+}
